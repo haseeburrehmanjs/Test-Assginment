@@ -2,5 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-background {
+    background-image: url(./assets//vectorMob.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
 
-
+.dotsBg {
+    background-image: url(./assets//dots.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}

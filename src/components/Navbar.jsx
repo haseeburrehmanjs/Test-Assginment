@@ -6,7 +6,7 @@ import { MdOutlinePhone } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <section className='bg-blue-500 w-[100%]'>
+    <section className='bg-[#388FCB] w-[100%]'>
       <div className='container mx-auto p-4 text-white'>
             <div className='flex justify-between items-center'>
                 <div className='flex gap-10'>
