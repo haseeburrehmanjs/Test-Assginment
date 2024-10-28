@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: poppins;
+}
+
 .bg-background {
     background-image: url(./assets//vectorMob.png);
     background-position: right;

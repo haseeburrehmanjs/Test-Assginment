@@ -22,18 +22,18 @@ const MobileStock = () => {
                 </div>
                 <div>
                     <div className='flex gap-3 items-center justify-center mt-10'>
-                        <div className='border-2 border-green-600 rounded-full w-[30px] h-[30px] flex justify-center items-center text-green-500'>
+                        <button className='border-2 border-green-600 rounded-full w-[30px] h-[30px] flex justify-center items-center text-green-500'>
                             <FaAngleLeft />
-                        </div>
+                        </button>
                         <div className='bg-green-500 rounded-full w-[60px] h-[15px]'>
                         </div>
                         <div className='bg-gray-300 rounded-full w-[15px] h-[15px]'>
                         </div>
                         <div className='bg-gray-300 rounded-full w-[15px] h-[15px]'>
                         </div>
-                        <div className='border-2 border-green-600 rounded-full w-[30px] h-[30px] flex justify-center items-center text-green-500'>
+                        <button className='border-2 border-green-600 rounded-full w-[30px] h-[30px] flex justify-center items-center text-green-500'>
                             <FaAngleRight />
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>

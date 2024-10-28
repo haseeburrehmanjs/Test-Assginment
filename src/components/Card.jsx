@@ -9,7 +9,7 @@ const Card = () => {
                     <div className='flex justify-center'>
                         <img className='w-[100px]' src={Cardimg} alt="" />
                     </div>
-                    <div className='leading-[10px]'>
+                    <div className='leading-[15px]'>
                         <h1 class="font-bold text-xl mb-2">Iphone 14 Pro Max</h1>
                         <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
