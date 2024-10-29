@@ -19,7 +19,7 @@ const Hero = () => {
         <section className='bg-background bg-[#F2FBFF] '>
             <div className='container mx-auto p-4'>
                 <div className='flex sm:justify-center justify-between mt-6'>
-                    <div >
+                    <div className='sm:hidden flex'>
                         <img width={80} src={Logo} alt="" />
                     </div>
                     <div>
@@ -38,7 +38,7 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <div className='flex justify-between mt-10 items-center'>
+                <div className='flex justify-between mt-10 items-center flex-wrap'>
                     <div className='flex flex-col gap-10'>
                         <h1 className='sm:text-[65px] text-[32px] font-bold'>Largest <span className='text-[#388FCB]'>Wholesalers</span> <br /> of <span className='text-[#388FCB]'>Mobiles Phones</span></h1>
                         <p className='text-[18px]'>
@@ -57,7 +57,7 @@ const Hero = () => {
                         <img width={500} src={MobileImg} alt="" />
                     </div>
                 </div>
-                <div className='flex items-center gap-8'>
+                <div className='flex items-center gap-8 flex-wrap sm:justify-start justify-center'>
                     <div className='flex gap-3 flex-wrap mt-5'>
                         <div>
                             <div className=' w-[40px] h-[40px] rounded-full bg-gradient-to-r from-green-500 to-blue-500 flex justify-center items-center text-white'>
