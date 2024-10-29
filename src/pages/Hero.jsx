@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowDown } from "react-icons/fa6";
 import MobileImg from '../assets/mobile.png'
 import mobile from '../assets/mobilepng.png'
 import Logo from '../assets/Vector.png'
@@ -24,13 +25,13 @@ const Hero = () => {
                     </div>
                     <div>
                         <ul className='gap-10 text-[20px] font-medium items-center hidden sm:flex'>
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Wholesale</li>
-                            <li><img width={80} src={Logo} alt="" /></li>
-                            <li>Services</li>
-                            <li>News</li>
-                            <li>How it Works</li>
+                            <li className='hover:cursor-pointer'>Home</li>
+                            <li className='hover:cursor-pointer'>About Us</li>
+                            <li className='hover:cursor-pointer'>Wholesale</li>
+                            <li className='hover:cursor-pointer'><img width={80} src={Logo} alt="" /></li>
+                            <li className='hover:cursor-pointer'>Services</li>
+                            <li className='hover:cursor-pointer'>News</li>
+                            <li className='hover:cursor-pointer'>How it Works</li>
                         </ul>
                     </div>
                     <div className='sm:hidden flex'>
@@ -44,12 +45,12 @@ const Hero = () => {
                         <p className='text-[18px]'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias <br /> maiores harum eligendi, quibusdam impedit rerum?
                         </p>
-                        <h1 className='text-[20px] flex items-center gap-2 text-[#388FCB]'>Learn More <FaArrowRight className='mt-2' /></h1>
+                        <h1 className='text-[20px] flex items-center gap-2 text-[#388FCB]'>Learn More <FaArrowRight className='mt-1 hover:text-[25px] hover:cursor-pointer' /></h1>
                         <div className='flex gap-4 flex-wrap'>
-                            <input className='h-[48px] bg-transparent w-[300px] rounded-full p-2 border border-blue-400 ' type="text" placeholder='Email' />
+                            <input className='h-[48px] bg-transparent w-[300px] rounded-full p-2 border border-blue-400 outline-none' type="text" placeholder='Email' />
                             <div className='flex gap-2'>
-                                <button className='w-[120px] h-[48px] rounded-full bg-green-500 text-white hover:bg-white hover:boder hover:border-green-600 border hover:text-green-500 flex gap-2 justify-center items-center'>Subscribe <FaArrowRight /></button>
-                                <button className='w-[120px] h-[48px] rounded-full bg-[#388FCB] text-white hover:bg-white hover:boder hover:border-[#388FCB] border hover:text-[#388FCB] flex gap-2 justify-center items-center'>Stock list <FaArrowRight /></button>
+                                <button className='w-[120px] h-[48px] rounded-full bg-green-500 text-white hover:bg-white hover:boder hover:border-green-600 border hover:text-green-500 flex gap-2 justify-center items-center text-[14px]'>Subscribe <FaArrowRight /></button>
+                                <button className='w-[120px] h-[48px] rounded-full bg-[#388FCB] text-white hover:bg-white hover:boder hover:border-[#388FCB] border hover:text-[#388FCB] flex gap-2 justify-center items-center text-[14px]'><FaArrowDown /> Stock list</button>
                             </div>
                         </div>
                     </div>

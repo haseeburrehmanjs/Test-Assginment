@@ -34,9 +34,12 @@ export default function BasicMenu() {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Home</MenuItem>
+        <MenuItem onClick={handleClose}>About Us</MenuItem>
+        <MenuItem onClick={handleClose}>Wholesale</MenuItem>
+        <MenuItem onClick={handleClose}>Service</MenuItem>
+        <MenuItem onClick={handleClose}>News</MenuItem>
+        <MenuItem onClick={handleClose}>How it Works</MenuItem>
       </Menu>
     </div>
   );
