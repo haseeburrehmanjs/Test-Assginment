@@ -5,7 +5,6 @@ import Card from '../components/Card'
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 
-
 const MobileStock = () => {
     return (
         <section className='container mx-auto p-4'>

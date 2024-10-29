@@ -6,7 +6,9 @@ import MobileStock from './pages/MobileStock'
 const App = () => {
   return (
     <div>
+      <div className='sm:flex hidden'>
       <Navbar />
+      </div>
       <Hero />
       <MobileStock />
     </div>
@@ -14,3 +16,4 @@ const App = () => {
 }
 
 export default App
+

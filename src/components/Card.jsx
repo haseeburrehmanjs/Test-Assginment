@@ -4,8 +4,8 @@ import Cardimg from '../assets/iphone14pro.png'
 const Card = () => {
     return (
         <>
-            <div class=" rounded-lg bg-gradient-to-tr from-blue-300 to-green-500 p-0.5 shadow-lg w-[304px]">
-                <div class="bg-[#F2FBFF] p-5 rounded-md w-[300px] text-center">
+            <div className=" rounded-lg bg-gradient-to-tr from-blue-300 to-green-500 p-0.5 shadow-lg w-[304px] productCard">
+                <div className="bg-[#F2FBFF] p-5 rounded-md w-[300px] text-center">
                     <div className='flex justify-center'>
                         <img className='w-[100px]' src={Cardimg} alt="" />
                     </div>
@@ -15,7 +15,7 @@ const Card = () => {
                     </div>
                 </div>
             </div>
-            
+
         </>
     )
 }
