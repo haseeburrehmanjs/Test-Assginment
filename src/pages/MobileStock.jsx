@@ -13,7 +13,7 @@ const MobileStock = () => {
                     <img className='w-[400px]' src={Stock} alt="" />
                     <p className='text-center text-[20px] font-semibold mt-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia totam quo quisquam mollitia <br />      exercitationem dolor? Iste at atque enim vitae.</p>
                 </div>
-                <div className='mt-16 flex justify-between gap-2 flex-wrap'>
+                <div className='mt-16 flex sm:justify-between justify-center gap-2 flex-wrap'>
                     <Card />
                     <Card />
                     <Card />
