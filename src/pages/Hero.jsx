@@ -38,8 +38,8 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <div className='flex justify-between mt-10 items-center flex-wrap'>
-                    <div className='flex flex-col gap-10'>
+                <div className='flex justify-between mt-[140px] items-center flex-wrap'>
+                    <div className='flex flex-col gap-10 slide-top'>
                         <h1 className='sm:text-[65px] text-[32px] font-bold'>Largest <span className='text-[#388FCB]'>Wholesalers</span> <br /> of <span className='text-[#388FCB]'>Mobiles Phones</span></h1>
                         <p className='text-[18px]'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias <br /> maiores harum eligendi, quibusdam impedit rerum?
@@ -54,7 +54,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        <img width={500} src={MobileImg} alt="" />
+                        <img className='slide-top' width={500} src={MobileImg} alt="" />
                     </div>
                 </div>
                 <div className='flex items-center gap-8 flex-wrap sm:justify-start justify-center'>
